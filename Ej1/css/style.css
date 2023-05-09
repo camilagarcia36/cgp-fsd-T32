@@ -1,22 +1,29 @@
-body {
+body,html {
   background-image: url("../fondoweb.jpeg");
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative; 
 }
 h2 {
   text-align: start;
 }
 .container {
-    display:grid; 
-    place-items: center;
-  text-align: center;
   border: 3px solid;
-  padding: 10px;
+  padding: 17px;
   border-radius: 4%;
-  max-height: 600px;
-  max-width: 450px;
+  width: 400px;
+  text-align: center;
+  /*centrar*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .logincuadrado {
   background-color: rgb(255, 255, 255);
-  
+
 }
 
 .cuadradogrey {
