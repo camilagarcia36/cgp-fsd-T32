@@ -1,0 +1,70 @@
+body {
+  background-image: url("../fondoweb.jpeg");
+}
+h2 {
+  text-align: start;
+}
+.container {
+    display:grid; 
+    place-items: center;
+  text-align: center;
+  border: 3px solid;
+  padding: 10px;
+  border-radius: 4%;
+  max-height: 600px;
+  max-width: 450px;
+}
+.logincuadrado {
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.cuadradogrey {
+  background-color: rgba(0, 0, 0, 0.782);
+  align-items: center;
+  
+}
+
+.logincuadrado,
+.cuadradogrey {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgicono {
+  width: 12px;
+}
+
+.btn {
+  background-color: rgb(162, 186, 207);
+  border-color: black;
+}
+.cabeceralogin {
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+#candado {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+input,
+.loginbtn {
+
+  padding: 2px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+input{
+    width: 300px;
+}
+.loginbtn {
+  border: white solid;
+  color: black;
+  margin-bottom: 5px;
+  background-color: rgb(162, 186, 207);
+}
