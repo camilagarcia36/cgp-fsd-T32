@@ -13,7 +13,7 @@ h2 {
   border: 3px solid;
   padding: 17px;
   border-radius: 4%;
-  width: 400px;
+  width: 500px;
   text-align: center;
   /*centrar*/
   position: absolute;
@@ -60,15 +60,17 @@ h2 {
   margin-right: 10px;
 }
 
-input {
-  padding: 2px;
-  border: none;
-  margin-top: 5px;
-}
 
 #botonlogin {
   border: white solid;
   color: black;
   margin-bottom: 2px;
   background-color: rgb(162, 186, 207);
+}
+.parteabajo{
+    margin-top: 20px;
+}
+
+.redessociales{
+    margin-top: 20px;
 }
