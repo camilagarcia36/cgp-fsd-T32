@@ -1,0 +1,23 @@
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+img{
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 15px;
+}
+
+.form{
+ 
+    justify-content: space-between;
+}
+
+.container{
+    color: rgb(103, 158, 242);
+    text-align: center;
+    margin-top: 10%;
+}
