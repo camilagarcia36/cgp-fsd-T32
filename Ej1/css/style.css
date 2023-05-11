@@ -1,76 +1,44 @@
-body,html {
+body{
   background-image: url("../fondoweb.jpeg");
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  position: relative; 
+
 }
-h2 {
-  text-align: start;
-}
-.container {
-  border: 3px solid;
-  padding: 17px;
-  border-radius: 4%;
-  width: 500px;
-  text-align: center;
+
+.centrar{
+  border: solid black;
+  padding: 10px;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 40rem;
   /*centrar*/
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.logincuadrado {
-  background-color: rgb(255, 255, 255);
+.centered-form .panel{
+  background: rgba(163, 160, 160, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+  color: #4e5d6c;
+
 
 }
 
-.cuadradogrey {
-  background-color: rgba(0, 0, 0, 0.124);
-  
-  align-items: center;
-  padding: 10px;
-  
+
+i{
+padding-left: 80%;
 }
 
-.logincuadrado,
-.cuadradogrey {
-  display: flex;
-  flex-direction: column;
+.panel{
+  width: 40rem;
+  margin: 0;
+}
+
+.redessociales{
+  margin-top: 20px;
 }
 
 .imgicono {
   width: 12px;
-}
-
-.btn {
-  background-color: rgb(162, 186, 207);
-  border-color: black;
-}
-.cabeceralogin {
-  padding: 3px;
-  display: flex;
-  justify-content: space-between;
-}
-#candado {
-  max-width: 50px;
-  max-height: 50px;
-  margin-top: 10px;
-  margin-right: 10px;
-}
-
-
-#botonlogin {
-  border: white solid;
-  color: black;
-  margin-bottom: 2px;
-  background-color: rgb(162, 186, 207);
-}
-.parteabajo{
-    margin-top: 20px;
-}
-
-.redessociales{
-    margin-top: 20px;
 }
