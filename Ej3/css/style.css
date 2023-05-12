@@ -27,11 +27,9 @@ p{
 }
 
 
-
-img{
-    max-width: 35px;
-    max-height: 30px;
-
+.text-white{
+  max-width: 35px;
+margin-right: 20px;
 }
 
 i{
@@ -39,15 +37,23 @@ i{
 }
 .dropdown .dropdown-menu {
     display: none;
+    background-color: rgb(119, 119, 234);  
   }
  
 /*al pasar por encima se activa sin necesidad de clicar*/
 .dropdown:hover > .dropdown-menu,
 .dropend:hover > .dropdown-menu {
   display: block;
-  margin-top: 0.125em;
-  margin-left: 0.125em;
+
+  
 }
+
+
+.dropstart:hover > .dropdown-menu{
+  display: block;
+
+}
+
 
 .dropend:hover > .dropdown-menu {
     position: absolute;
@@ -55,10 +61,11 @@ i{
     left: 100%;
   }
 
-  @media screen and (min-width: 769px) {
-    .dropend:hover > .dropdown-menu {
-      position: absolute;
-      top: 0;
-      left: 100%;
-    }
-  }
+.dropdown-menu{
+  background-color: blue;
+}
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+}
+ 
